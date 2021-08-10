@@ -123,8 +123,8 @@ nav {
     position: absolute;
     width: 50%;
     height: 100%;
-    top: 0%;
-    right: -100%;
+    top: -100%;
+    right: 0;
     padding: 3rem;
     background-color: white;
     transition: 0.5s;
@@ -144,7 +144,7 @@ nav {
     margin-top: 20px;
   }
   .show-list {
-    right: 0;
+    top: 0;
   }
 }
 
